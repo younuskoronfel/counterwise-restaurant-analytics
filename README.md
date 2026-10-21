@@ -1,5 +1,7 @@
 # Counterwise | Restaurant Sales & Inventory
 
+[![Counterwise checks](https://github.com/younuskoronfel/counterwise-restaurant-analytics/actions/workflows/tests.yml/badge.svg)](https://github.com/younuskoronfel/counterwise-restaurant-analytics/actions/workflows/tests.yml)
+
 Counterwise explores a practical problem I first became interested in while working on local restaurant sales reports: how can an order automatically affect inventory without making the sales records harder to trust?
 
 This is a local **Python, SQLite, HTML, and CSS** application. You can record an order, deduct recipe ingredients, review estimated margins, restock inventory, and export CSV data—without installing third-party Python packages.
