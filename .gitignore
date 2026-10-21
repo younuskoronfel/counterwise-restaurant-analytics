@@ -1,0 +1,16 @@
+# Local database contains user-created data; never commit it
+/data/
+*.db
+*.db-shm
+*.db-wal
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# System
+.DS_Store
+Thumbs.db
