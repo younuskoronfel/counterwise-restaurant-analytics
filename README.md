@@ -1,8 +1,10 @@
-# Counterwise — Restaurant Sales & Inventory Analytics
+# Counterwise | Restaurant Sales & Inventory
 
-**A small but real full-stack-style Python project:** record a sale, automatically deduct recipe ingredients, see revenue and estimated gross margin, and download orders as CSV. Built with **Python, SQLite, HTML, and CSS**. No third-party packages needed.
+Counterwise explores a practical problem I first became interested in while working on local restaurant sales reports: how can an order automatically affect inventory without making the sales records harder to trust?
 
-> **Portfolio transparency:** This is an educational demonstration using **synthetic restaurant data**. It is not connected to Red Pepper Pizzeria, Habibi Tacos, Stripe, or any real business. It is a starting project created with AI assistance and intended for learning, modification, and personal explanation. Do not claim sole authorship of code you did not write or understand.
+This is a local **Python, SQLite, HTML, and CSS** application. You can record an order, deduct recipe ingredients, review estimated margins, restock inventory, and export CSV data—without installing third-party Python packages.
+
+**Project scope:** Counterwise uses fictional data and is not connected to a live restaurant or payment platform. The starter application was developed with AI assistance; I am using it to practice Python, SQL, testing, and making my own improvements, which I document in [project notes](YOUR_CHANGES.md).
 
 ## What you can do
 
@@ -103,8 +105,8 @@ For a fuller explanation of technical decisions and improvements, see [DESIGN_DE
 
 Stop the app first, delete `data/counterwise.db`, and run it again. The app will rebuild the schema and synthetic sales data. **Deleting the file deletes your locally recorded orders.**
 
-## A good next step
+## Next improvements
 
-Write one new feature yourself (a search filter for recent orders is a good first choice), add a test, and explain the tradeoff in a GitHub commit. Employers care more about a project you truly understand than a polished repository you cannot explain.
+I'm using this as a foundation for hands-on work. The next useful changes would be an ingredient-usage report, a multi-item order flow, and tests that cover both. Any features I implement and verify will be recorded in [my project notes](YOUR_CHANGES.md).
 
 **License:** MIT. See [LICENSE](LICENSE).
