@@ -1,6 +1,6 @@
-# Your personal contribution log
+# Counterwise: My Development Notes
 
-This starter repository was generated with AI assistance. Use this file to record only work **you personally performed**, after you do it. Never fill in an exercise you have not actually completed.
+This is where I keep track of what I test, change, and learn while working through the Counterwise codebase. The current implementation began as an AI-assisted starter; entries below are for work I actually complete.
 
 ## Before changing code
 - [ ] I can start the server myself.
@@ -8,14 +8,14 @@ This starter repository was generated with AI assistance. Use this file to recor
 - [ ] I ran all automated tests and saw the results.
 - [ ] I can explain what the `recipes` table does.
 
-## My first original improvement
+## Feature or fix I'm working on
 **Date:** [fill in]
 
 **Problem I noticed:** [fill in]
 
 **My proposed solution:** [fill in]
 
-**Files I changed and exactly what I wrote:** [fill in]
+**Code I changed:** [fill in]
 
 **A bug or confusing part I encountered:** [fill in]
 
@@ -25,5 +25,7 @@ This starter repository was generated with AI assistance. Use this file to recor
 
 **Commit URL:** [fill in after publishing]
 
-## AI use disclosure
-Starter application and initial tests: created with AI assistance. I reviewed, tested, and made the specific changes listed above myself. [Edit this statement after you actually do those things.]
+## What I want to understand next
+- How SQLite transactions avoid partial orders
+- Why storing prices as cents improves financial calculations
+- How to add another item to the menu and write a test for it
